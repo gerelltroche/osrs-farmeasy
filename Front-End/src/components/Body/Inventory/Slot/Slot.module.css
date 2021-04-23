@@ -1,0 +1,42 @@
+.Slot {
+    position: relative;
+    font-size: .5rem;
+    display: flex;
+    background-color: #D8CCB4;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.SlotImage {
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    margin-top: 2px;
+    top: 0;
+    z-index: 10;
+    user-select: none;
+}
+.SlotText {
+    text-transform: uppercase;
+    color: #463E32;
+    font-size: .9em;
+    z-index: 20;
+    position: absolute;
+    bottom: -1px;
+    font-weight: bold;
+    text-align: center;
+}
+.SlotAmount {
+    font-size: .75rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #ffe600;
+    padding: 2px;
+    position: absolute;
+    bottom: -10px;
+    right: -8px;
+    z-index: 30;
+}

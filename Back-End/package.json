@@ -1,0 +1,16 @@
+{
+  "name": "farming-app-backend",
+  "version": "1.0.0",
+  "description": "Just reaches out to osrs highscores and returns a person",
+  "main": "Proxy-Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Proxy-Server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}

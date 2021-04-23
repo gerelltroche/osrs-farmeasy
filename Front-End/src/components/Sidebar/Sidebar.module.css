@@ -1,0 +1,29 @@
+.Sidebar {
+    background-color: #D8CCB4;
+    border: #463E32 solid 1px;
+    position: absolute;
+    width: 40%;
+    top: 90.5px;
+    right: 0;
+    z-index: 900;
+}
+.Header {
+    top: 0;
+    background-color: #938a7b;
+    padding: 10px;
+    font-size: 1em;
+}
+.OptionContainer {
+    width: 75%;
+    padding: 1px;
+    list-style: none;
+    color: black;
+    margin-left: 20px;
+}
+.Option {
+    margin-bottom: 15px;
+    background-color: #90C040;
+}
+.Option {
+    background-color: #463E32;
+}

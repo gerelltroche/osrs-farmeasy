@@ -1,0 +1,34 @@
+.OptionsContainer {
+    display: flex;
+}
+.Input {
+    background-color: #F6F6F6;
+    color: #A9A9A9;
+    font-family: inherit;
+    border: 0px;
+    padding: 5px;
+    height: 100%;
+}
+.Submit {
+    background-color: #D8CCB4;
+    color: #fefefe;
+    font-family: inherit;
+    border: 0px;
+    margin: 5px 5px 5px 0px;
+    padding: 5px;
+}
+.Submit:active {
+    background-color: #938a7b;
+}
+.Text {
+    color: #90C040;
+    font-size: 1.3rem;
+}
+.OptionsButton {
+    background-color: #D8CCB4;
+    color: #fefefe;
+    font-family: inherit;
+    border: 0px;
+    margin: 5px 5px 5px 0px;
+    padding: 5px;
+}

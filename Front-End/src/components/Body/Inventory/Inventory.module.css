@@ -1,0 +1,7 @@
+.Inventory {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #afa494;
+    width: 280px;
+    min-width: 280px;
+}

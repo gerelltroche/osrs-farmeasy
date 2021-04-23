@@ -1,0 +1,14 @@
+.Container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Logo {
+    height: 70px;
+    width: 70px;
+}
+.Title {
+    margin-left: 10px;
+    user-select: none;
+}

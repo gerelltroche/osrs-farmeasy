@@ -1,0 +1,236 @@
+{
+  "5171": {
+    "id": 5171,
+    "name": "Seeds",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5318": {
+    "id": 5318,
+    "name": "Potato seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5319": {
+    "id": 5319,
+    "name": "Onion seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5324": {
+    "id": 5324,
+    "name": "Cabbage seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5322": {
+    "id": 5322,
+    "name": "Tomato seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5320": {
+    "id": 5320,
+    "name": "Sweetcorn seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5323": {
+    "id": 5323,
+    "name": "Strawberry seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5321": {
+    "id": 5321,
+    "name": "Watermelon seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "13783": {
+    "id": 13783,
+    "name": "Marigold seed",
+    "type": "placeholder",
+    "duplicate": true
+  },
+  "13784": {
+    "id": 13784,
+    "name": "Rosemary seed",
+    "type": "placeholder",
+    "duplicate": true
+  },
+  "13785": {
+    "id": 13785,
+    "name": "Nasturtium seed",
+    "type": "placeholder",
+    "duplicate": true
+  },
+  "13786": {
+    "id": 13786,
+    "name": "Woad seed",
+    "type": "placeholder",
+    "duplicate": true
+  },
+  "13787": {
+    "id": 13787,
+    "name": "Limpwurt seed",
+    "type": "placeholder",
+    "duplicate": true
+  },
+  "5291": {
+    "id": 5291,
+    "name": "Guam seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5292": {
+    "id": 5292,
+    "name": "Marrentill seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5293": {
+    "id": 5293,
+    "name": "Tarromin seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5294": {
+    "id": 5294,
+    "name": "Harralander seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5295": {
+    "id": 5295,
+    "name": "Ranarr seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5296": {
+    "id": 5296,
+    "name": "Toadflax seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5297": {
+    "id": 5297,
+    "name": "Irit seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5298": {
+    "id": 5298,
+    "name": "Avantoe seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5299": {
+    "id": 5299,
+    "name": "Kwuarm seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5300": {
+    "id": 5300,
+    "name": "Snapdragon seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5301": {
+    "id": 5301,
+    "name": "Cadantine seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5302": {
+    "id": 5302,
+    "name": "Lantadyme seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5303": {
+    "id": 5303,
+    "name": "Dwarf weed seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5304": {
+    "id": 5304,
+    "name": "Torstol seed",
+    "type": "normal",
+    "duplicate": false
+  },
+  "21483": {
+    "id": 21483,
+    "name": "compost",
+    "type": "normal",
+    "duplicate": false
+  },
+  "7409": {
+    "id": 7409,
+    "name": "Magic secateurs",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5341": {
+    "id": 5341,
+    "name": "Rake",
+    "type": "normal",
+    "duplicate": false
+  },
+  "5343": {
+    "id": 5343,
+    "name": "Seed dibber",
+    "type": "normal",
+    "duplicate": false
+  },
+  "952": {
+    "id": 952,
+    "name": "Spade",
+    "type": "normal",
+    "duplicate": false
+  },
+  "1359": {
+    "id": 1359,
+    "name": "axe",
+    "type": "normal",
+    "duplicate": false
+  },
+  "13126": {
+    "id": 13126,
+    "name": "Explorer's ring 2+",
+    "type": "normal",
+    "duplicate": false
+  },
+  "18660": {
+    "id": 18660,
+    "name": "Ardougne cloak 2+",
+    "type": "placeholder",
+    "duplicate": true
+  },
+  "13393": {
+    "id": 13393,
+    "name": "Xeric's talisman",
+    "type": "normal",
+    "duplicate": false
+  },
+  "4251": {
+    "id": 4251,
+    "name": "Ectophial",
+    "type": "normal",
+    "duplicate": false
+  },
+  "14887": {
+    "id": 14887,
+    "name": "Camelot teleport",
+    "type": "placeholder",
+    "duplicate": true
+  },
+  "11105": {
+    "id": 11105,
+    "name": "Skills necklace",
+    "type": "normal",
+    "duplicate": false
+  }
+}
