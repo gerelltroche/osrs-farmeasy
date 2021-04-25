@@ -2,7 +2,7 @@ import React from "react";
 import logo from '../../assets/images/logo.svg'
 import classes from './Header.module.css'
 
-const Chik = props => {
+const Header = props => {
     return (
         <div className={classes.Container}>
             <img src={logo} className={classes.Logo} alt={'osrs farming logo'}/>
@@ -11,4 +11,4 @@ const Chik = props => {
     )
 }
 
-export default Chik
+export default Header;
