@@ -3,7 +3,7 @@ import classes from './PlayerForm.module.css'
 
 const PlayerForm = ({ getLevel, name, setName }) => {
 
-    const formSubmitHandler = (event) => {
+    const formSubmitHandler = async (event) => {
         event.preventDefault()
         getLevel(name)
     }

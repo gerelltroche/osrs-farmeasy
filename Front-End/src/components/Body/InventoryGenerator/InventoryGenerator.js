@@ -1,15 +1,8 @@
-import React, {useEffect} from "react";
 import ITEMS_DICTIONARY from '../../../assets/data/filtereditems.json'
-import Generator, { patchlist, seedlist } from './Generator/Generator'
+import { patchlist, seedlist } from './Generator/Generator'
 
-const InventoryGenerator = ({level, inventory, setInventory}) => {
+const InventoryGenerator = (level, setInventory) => {
     let filteredpatches = []
-
-
-
-    useEffect(() => {
-        Generator()
-    }, [])
 
     const idlookup = (itemname) => {
         for (let num in ITEMS_DICTIONARY) {
@@ -152,13 +145,7 @@ const InventoryGenerator = ({level, inventory, setInventory}) => {
 
     }
 
-
-
-    return (
-        <div>
-            <button onClick={() => pushItems()} >yes</button>
-        </div>
-    )
+    pushItems()
 };
 
 export default InventoryGenerator;

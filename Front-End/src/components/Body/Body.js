@@ -1,10 +1,11 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 
 import classes from './Body.module.css'
 
 import Interface from "./Interface/Interface";
 import InventoryGenerator from "./InventoryGenerator/InventoryGenerator";
 import Inventory from './Inventory/Inventory'
+import Generator from "./InventoryGenerator/Generator/Generator";
 
 const Body = props => {
     const [name, setName] = useState('Enter Username'); //this should be helper text instead of initializing it like this.
@@ -42,6 +43,9 @@ const Body = props => {
         {name: '', amount: null, image: null},
     ])
 
+    useEffect(() => {
+        Generator()
+    }, [])
 
     return (
         <div>
@@ -57,10 +61,11 @@ const Body = props => {
                     setError={setError}
                     setShowOptions={props.setShowOptions}
                     showOptions={props.showOptions}
+                    InvGen={InventoryGenerator}
+                    setInv={setInventory}
                 />
             </div>
             <div className={classes.Inventory}><Inventory inventory={inventory}/></div>
-            <InventoryGenerator level={level} inventory={inventory} setInventory={setInventory}/>
         </div>
     )
 }

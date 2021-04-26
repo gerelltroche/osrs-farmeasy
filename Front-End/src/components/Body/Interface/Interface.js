@@ -7,19 +7,18 @@ import PlayerForm from "./PlayerForm/PlayerForm";
 const Interface = props => {
 
     const getLevel = async (name) => {
-        props.setIsLoading(true)
-        props.setError(null);
-
-        try {
             const response = await fetch(`http://192.168.86.41:4000/${name}`)
             const data = await response.json();
-
             const level = data.level
-            console.log(level)
-            props.setLevel(level)
-        } catch (err) {
-            props.setError(err.message)
-        }
+            return level;
+    }
+
+    const setLevelHandler = async (name) => {
+        props.setIsLoading(true)
+
+        let level = await getLevel(name)
+        props.setLevel(level)
+        props.InvGen(level, props.setInv)
 
         props.setIsLoading(false)
     }
@@ -36,7 +35,10 @@ const Interface = props => {
     return (
         <div className={classes.OptionsContainer}>
             <div>
-                <PlayerForm getLevel={getLevel} name={props.name} setName={props.setName}/>
+                <PlayerForm
+                    getLevel={setLevelHandler}
+                    name={props.name}
+                    setName={props.setName}/>
                 <div className={classes.Text}>Farming Level: {message}</div>
             </div>
             <div>
