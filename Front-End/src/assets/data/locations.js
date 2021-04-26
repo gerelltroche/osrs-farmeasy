@@ -59,7 +59,67 @@ const locations = [
     4: "Tithe Farm minigame teleport",
     5: "Skills Necklace to Woodcutting Guilde, then run east"
   }
-}
+},
+{
+  name: "Harmony Island",
+  id: "L6",
+  coordinates: [1739,3559],
+  teleports: {
+    1: "Xerics talisman to Xerics Glade",
+    2: "Hosidius portal: Teleport to House/Redirected House Tab",
+    3: "Kharedst memoirs to Lunch by the lancalliums",
+    4: "Tithe Farm minigame teleport",
+    5: "Skills Necklace to Woodcutting Guilde, then run east"
+  }
+},
+{
+  name: "Farming Guild",
+  id: "L7",
+  coordinates: [1739,3559],
+  teleports: {
+    1: "Xerics talisman to Xerics Glade",
+    2: "Hosidius portal: Teleport to House/Redirected House Tab",
+    3: "Kharedst memoirs to Lunch by the lancalliums",
+    4: "Tithe Farm minigame teleport",
+    5: "Skills Necklace to Woodcutting Guilde, then run east"
+  }
+},
+{
+  name: "Prifddinas",
+  id: "L8",
+  coordinates: [1739,3559],
+  teleports: {
+    1: "Xerics talisman to Xerics Glade",
+    2: "Hosidius portal: Teleport to House/Redirected House Tab",
+    3: "Kharedst memoirs to Lunch by the lancalliums",
+    4: "Tithe Farm minigame teleport",
+    5: "Skills Necklace to Woodcutting Guilde, then run east"
+  }
+},
+{
+  name: "Roof of Troll Stronghold",
+  id: "L9",
+  coordinates: [1739,3559],
+  teleports: {
+    1: "Xerics talisman to Xerics Glade",
+    2: "Hosidius portal: Teleport to House/Redirected House Tab",
+    3: "Kharedst memoirs to Lunch by the lancalliums",
+    4: "Tithe Farm minigame teleport",
+    5: "Skills Necklace to Woodcutting Guilde, then run east"
+  }
+},
+{
+  name: "Weiss",
+  id: "L10",
+  coordinates: [1739,3559],
+  teleports: {
+    1: "Xerics talisman to Xerics Glade",
+    2: "Hosidius portal: Teleport to House/Redirected House Tab",
+    3: "Kharedst memoirs to Lunch by the lancalliums",
+    4: "Tithe Farm minigame teleport",
+    5: "Skills Necklace to Woodcutting Guilde, then run east"
+  }
+},
 ]
 
 export default locations

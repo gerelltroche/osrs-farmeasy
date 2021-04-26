@@ -98,7 +98,62 @@ const patches = [
     id: "L54",
     type: "herb",
     location: "Southwest corner of Hosidius"
-  }
+  },
+  {
+    id: "L61",
+    type: "allotment",
+    location: "Harmony Island"
+  },
+  {
+    id: "L62",
+    type: "herb",
+    location: "Harmony Island"
+  },
+  {
+    id: "L71",
+    type: "allotment",
+    location: "Farming Guild"
+  },
+  {
+    id: "L72",
+    type: "allotment",
+    location: "Farming Guild"
+  },
+  {
+    id: "L73",
+    type: "flower",
+    location: "Farming Guild"
+  },
+  {
+    id: "L74",
+    type: "herb",
+    location: "Farming Guild"
+  },
+  {
+    id: "L81",
+    type: "allotment",
+    location: "Prifddinas"
+  },
+  {
+    id: "L82",
+    type: "allotment",
+    location: "Prifddinas"
+  },
+  {
+    id: "L83",
+    type: "flower",
+    location: "Prifddinas"
+  },
+  {
+    id: "L91",
+    type: "herb",
+    location: "Roof of Troll Stronghold"
+  },
+  {
+    id: "L101",
+    type: "herb",
+    location: "Weiss"
+  },
 ]
 
 export default patches
