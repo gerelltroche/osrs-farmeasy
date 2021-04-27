@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "cd front-end && npm start",
     "server": "cd back-end && npm start",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "buildclient": "cd front-end && npm build",
+    "buildserver": "cd back-end && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "concurrently \"npm run buildserver\" \"npm run buildclient\""
   },
   "author": "",
   "license": "ISC"
