@@ -7,7 +7,7 @@ import PlayerForm from "./PlayerForm/PlayerForm";
 const Interface = props => {
 
     const getLevel = async (name) => {
-            const response = await fetch(`http://192.168.86.41:4000/${name}`)
+            const response = await fetch(`http://localhost:4000/${name}`)
             const data = await response.json();
             const level = data.level
             return level;
