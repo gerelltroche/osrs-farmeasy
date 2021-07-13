@@ -8,7 +8,7 @@ const OptionsToggle = ({ toggle, showOptions }) => {
     }
 
     return (
-        <button className={classes.Button} onClick={toggleOptions}>Open <br />Options</button>
+        <button className={classes.Button} onClick={toggleOptions}>Options</button>
     )
 }
 

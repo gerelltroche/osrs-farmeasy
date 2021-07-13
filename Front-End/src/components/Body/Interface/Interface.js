@@ -35,13 +35,13 @@ const Interface = props => {
     return (
         <div className={classes.Container}>
             <div>
+                <div className={classes.Text}>Farming Level: {message}</div>
                 <PlayerForm
                     getLevel={setLevelHandler}
                     name={props.name}
                     setName={props.setName}/>
-                <div className={classes.Text}>Farming Level: {message}</div>
             </div>
-            <div>
+            <div className={classes.OptionsButton}>
                 <OptionsToggle toggle={props.setShowOptions} showOptions={props.showOptions}/>
             </div>
         </div>

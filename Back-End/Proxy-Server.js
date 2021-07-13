@@ -1,8 +1,9 @@
 const Express = require('express')
-const { farmingLevel } = require('./PlayerLookup/PlayerLookup')
+const FarmingLevel = require('./PlayerLookup/PlayerLookup')
 const express = Express()
 const PORT = 4000
 
+const farmingLevel = FarmingLevel.farmingLevel
 
 express.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");

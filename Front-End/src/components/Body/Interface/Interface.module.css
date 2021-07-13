@@ -25,9 +25,5 @@
     font-size: 1.3rem;
 }
 .OptionsButton {
-    background-color: #D8CCB4;
-    color: #fefefe;
-    font-family: inherit;
-    border: 0;
-    padding: 5px;
+    align-self: flex-end;
 }
