@@ -27,4 +27,4 @@ express.get('/:username', function (req, res) {
 
 })
 
-express.listen(PORT, () => console.log(`Listening on Port ${PORT}`))N7j!!qjko8aYEXaP
+express.listen(PORT, () => console.log(`Listening on Port ${PORT}`))
