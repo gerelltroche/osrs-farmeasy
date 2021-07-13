@@ -11,8 +11,8 @@ express.use((req, res, next) => {
     next();
 })
 
-express.get('/:username', async (req, res) => {
-    const { username } = req.params
+express.get('/:username', async function (req, res) {
+    const username = req.params.username
 
     // const level = await FarmingLevel.farmingLevel(username)
     //     .then(level => res.json({level: level}))
