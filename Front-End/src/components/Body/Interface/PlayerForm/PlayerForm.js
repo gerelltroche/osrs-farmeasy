@@ -12,6 +12,7 @@ const PlayerForm = ({ getLevel, name, setName }) => {
         <div>
             <form onSubmit={(event) => formSubmitHandler(event)}>
                 <input
+                placeholder='Enter Username'
                 className={classes.Input}
                 value={name}
                 onChange={(e) => setName(e.target.value)}

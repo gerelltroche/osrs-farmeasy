@@ -105,7 +105,7 @@ const InventoryGenerator = (level, setInventory) => {
     }
 
     const pushTeleports = (options) => {
-        console.log(options)
+        //console.log(options)
         let itemstopush = []
 
         itemstopush.push(

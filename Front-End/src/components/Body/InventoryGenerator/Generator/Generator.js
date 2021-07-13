@@ -8,7 +8,7 @@ import teleports from '../../../../assets/data/teleports'
 import locations from '../../../../assets/data/locations'
 
 const Generator = () => {
-    console.log(`Generating ${seeds.length} seeds, ${patches.length} patches, ${teleports.length} teleports, ${locations.length} locations.`)
+    // console.log(`Generating ${seeds.length} seeds, ${patches.length} patches, ${teleports.length} teleports, ${locations.length} locations.`)
 
     seeds.forEach((seed) => {
         seedlist[seed.name] = new Seed(seed)

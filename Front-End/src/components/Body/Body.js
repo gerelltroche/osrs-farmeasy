@@ -8,7 +8,7 @@ import Inventory from './Inventory/Inventory'
 import Generator from "./InventoryGenerator/Generator/Generator";
 
 const Body = props => {
-    const [name, setName] = useState('Enter Username'); //this should be helper text instead of initializing it like this.
+    const [name, setName] = useState(''); //this should be helper text instead of initializing it like this.
     const [level, setLevel] = useState('');
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState(null);

@@ -1,19 +1,22 @@
+form {
+    font-size: 16px;
+}
 .Input {
     background-color: #F6F6F6;
     color: #A9A9A9;
     font-family: inherit;
-    font-size: 16px;
-    border: 0px;
+    font-size: inherit;
+    border: 0;
     padding: 5px;
-    height: 100%;
 }
 .Submit {
     background-color: #D8CCB4;
     color: #fefefe;
     font-family: inherit;
-    border: 0px;
-    margin: 0px 5px 5px 0px;
-    padding: 8px 5px 6.4px 5px;
+    font-size: inherit;
+    border: 0;
+    margin: 0 5px 0 0;
+    padding: 5px;
     user-select: none;
 }
 .Submit:active {

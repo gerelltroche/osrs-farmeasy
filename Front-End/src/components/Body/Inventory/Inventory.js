@@ -6,6 +6,9 @@ import Slot from './Slot/Slot'
 
 
 const inventory = ({ inventory }) => {
+
+
+
     return(
     <div className={classes.Inventory}>
         {inventory.map((el, index) => {
