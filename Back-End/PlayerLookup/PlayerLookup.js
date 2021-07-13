@@ -11,6 +11,7 @@ const farmingLevel = async (username) => {
         console.log(`${username} requested`)
         const response = await axios.get(constructUrl())
         const data = await response.data;
+
         const levels = data.split(',');
         return levels[41]
     }

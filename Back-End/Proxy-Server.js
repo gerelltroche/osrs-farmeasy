@@ -11,16 +11,14 @@ express.use((req, res, next) => {
     next();
 })
 
-express.get('/:username', function (req, res) {
-    const username = req.params.username
+express.get('/:username', async (req, res) => {
+    const { username } = req.params
 
     // const level = await FarmingLevel.farmingLevel(username)
     //     .then(level => res.json({level: level}))
     //     .catch(error => console.log(error))
     try {
-        res.json({
-            level: farmingLevel(username).then(function(returnobj) { return returnobj})
-        })
+        res.json({level: await farmingLevel(username)})
     } catch (err) {
         console.log(`Err: ${err}`)
     }
