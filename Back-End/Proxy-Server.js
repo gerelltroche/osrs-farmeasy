@@ -11,18 +11,20 @@ express.use((req, res, next) => {
     next();
 })
 
-express.get('/:username', async function (req, res) {
+express.get('/:username', function (req, res) {
     const username = req.params.username
 
     // const level = await FarmingLevel.farmingLevel(username)
     //     .then(level => res.json({level: level}))
     //     .catch(error => console.log(error))
     try {
-        res.json({level: await farmingLevel(username)})
+        res.json({
+            level: farmingLevel(username).then(function(returnobj) { return returnobj})
+        })
     } catch (err) {
         console.log(`Err: ${err}`)
     }
 
 })
 
-express.listen(PORT, () => console.log(`Listening on Port ${PORT}`))
+express.listen(PORT, () => console.log(`Listening on Port ${PORT}`))N7j!!qjko8aYEXaP
